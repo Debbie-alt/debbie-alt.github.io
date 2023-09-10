@@ -1,0 +1,59 @@
+body{
+      background-color:whitesmoke;
+    }
+    
+    .label{
+      font-weight: bolder;
+      color: goldenrod;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .pic{
+          display: flex;
+          height: 300px; 
+          margin-top: 2%;
+          justify-content: flex-start;
+          align-items: center;
+          padding-left:35px;
+          
+        }   
+        .pic img {
+          max-width: 100%;
+          max-height: 80%;
+          margin-left: 5%;
+          border-radius: 50%;
+          border: 3px solid goldenrod;
+          
+        }
+        
+      .pic span{
+          padding-left: 5px;
+    
+        }
+        .main{
+          display: flex;
+          padding:10px 25px;
+          margin-top: -20px;
+          border-top: 2px solid goldenrod;
+        
+        }
+        .main p{
+          margin: 21px;
+    
+        }
+        .main span{
+          margin:21px -10px;
+    
+        }
+        .button{
+          background-color:goldenrod;
+          color: black;
+          cursor: pointer;
+          display: inline-block;
+          border-radius: 20px;
+          text-decoration: none;
+          height:20px;
+          text-align: center;
+          padding: 8px;
+          margin-left: 8%;
+        }
+        
